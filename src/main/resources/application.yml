@@ -1,0 +1,27 @@
+# pointing at Swagger's petstore docs so the example has some content
+documentation:
+  swagger:
+    services:
+      - name: CMA JSON
+        url: https://raw.githubusercontent.com/nishantshah-me/CMA/master/swagger.json
+        version: 3.0.1
+
+      - name: CMA
+        url: https://api.examcure.com/docs/
+        version: 3.0.1
+      -
+        name: Pet Service
+        url: http://petstore.swagger.io/v2/swagger.json
+        version: 2.0
+      - 
+        name: Human Service
+        url: http://petstore.swagger.io/v2/swagger.json
+        version: 2.0
+      -
+        name: Zoo Service
+        url: http://petstore.swagger.io/v2/swagger.json
+        version: 2.0
+      - 
+        name: Food Service
+        url: http://petstore.swagger.io/v2/swagger.json
+        version: 2.0
